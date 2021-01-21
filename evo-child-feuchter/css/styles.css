@@ -1,0 +1,144 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+nav {
+  background: #313b1b;
+  color: #fff;
+  text-align: right;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 3px;
+}
+
+.arrow {
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 2px;
+  margin: 2px 0 2px 5px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.search {
+  border-radius: 0;
+  height: 40px;
+}
+
+.box {
+  position: relative;
+  padding: 10px 0;
+}
+
+.search-icon {
+  position: absolute;
+  top: 35%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0;
+  margin-right: 25px;
+}
+
+.cart-button {
+  height: 40px;
+  color: #fff;
+  font-family: 'Fjalla One', sans-serif;
+  border: none;
+  background: #e00b39;
+}
+
+.kategorie-list {
+  text-transform: uppercase;
+  color: #313b1b;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.kategorie-list li {
+  margin: 0 5px 0 10px;
+  font-weight: 600;
+}
+
+.slider {
+  position: relative;
+}
+
+.slider-title {
+  font-family: 'Fjalla One', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background: #313b1b;
+  text-transform: uppercase;
+  font-size: 30px;
+  z-index: 5;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+.slider-desc {
+  position: absolute;
+  top: 65%;
+  left: 8%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background: #313b1b;
+  background: #e8e4df;
+  width: 430px;
+  font-size: 13px;
+  padding: 20px;
+}
+
+.teaser {
+  position: relative;
+  font-family: 'Fjalla One', sans-serif;
+  color: #313b1b;
+}
+
+.teaser-1-text {
+  position: absolute;
+  top: 68%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 0 15px;
+  background: rgba(255, 255, 255, 0.8);
+  width: 75%;
+}
+
+.teaser-2-text {
+  position: absolute;
+  top: 68%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0;
+  padding: 0 25px 0 15px;
+  text-align: right;
+  background: rgba(255, 255, 255, 0.8);
+  width: 75%;
+}
+
+.teaser-title {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1024px) {
+  .slider-title {
+    font-size: 20px;
+    z-index: 5;
+    padding: 5px 10px;
+  }
+
+  .slider-desc {
+    width: 400px;
+    font-size: 10px;
+    padding: 10px;
+  }
+}

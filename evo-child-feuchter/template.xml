@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Template isFullResponsive="true">
+    <Name>Mein-Shop-Template</Name>
+    <Author>Max Mustermann</Author>
+    <URL>https://www.mein-shop.de</URL>
+    <Version>1.00</Version>
+    <ShopVersion>403</ShopVersion>
+    <Parent>Evo</Parent>
+    <Preview>preview.png</Preview>
+    <Description>Das ist mein eigenes Template!</Description>
+
+    <htmlData><![CDATA[<html>
+        <head>
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Document</title>
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato:wght@400;700&display=swap"
+            rel="stylesheet"
+          />
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+          <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+            integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+            crossorigin="anonymous"
+          />
+          <link rel="stylesheet" href="./themes//my-evo/bootstrap.css" />
+          <link rel="stylesheet" href="./css/styles.css" />
+        </head>
+        <body>
+          <nav>
+            <div class="container text-end">
+              News // Kontakt // Anmelden <i class="arrow down"></i>
+            </div>
+          </nav>
+          <header>
+            <div class="container">
+              <div class="header">
+                <div class="row py-4 align-items-center">
+                  <div class="col-md-4">
+                    <img
+                      class="w-100"
+                      src="./themes/base/images/logo.png"
+                      alt="logo"
+                    />
+                  </div>
+                  <div class="col-md-5 mt-3 w-100">
+                    <div class="form-group">
+                      <span class="fa fa-search search-icon"></span>
+                      <input
+                        type="text"
+                        class="form-control search"
+                        placeholder="Search"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <button class="cart-button w-100">
+                      <img
+                        src="./themes/base/images/icon-warenkorb.png"
+                        alt="warenkorb"
+                      />
+                      WARENKORB(0|0,00€)
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </header>
+          <section class="container">
+            <hr />
+            <ul class="kategorie-list">
+              <li>kategorie 1</li>
+              <li>kategorie 2</li>
+              <li>kategorie 3</li>
+              <li>kategorie 4</li>
+            </ul>
+          </section>
+          <section class="container slider">
+            <div class="slider-title">Lorem ipsum dolor sit amet</div>
+            <div class="slider-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat beatae
+              voluptatum quidem cumque aliquid perferendis ducimus in possimus a et.
+            </div>
+            <img class="w-100 py-4" src="./themes/base/images/slider.jpg" alt="" />
+          </section>
+          <section class="container teaser">
+            <div class="row">
+              <div class="col-md-6 mb-3 teaser">
+                <div class="teaser-1-text">
+                  <div class="teaser-title">outdoor</div>
+                  <div class="teaser-desc">
+                    Functionsbekleidung fur jede Witterung
+                  </div>
+                </div>
+                <img
+                  class="w-100"
+                  src="./themes/base/images/kategorie-teaser-1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-md-6 mb-3 teaser">
+                <div class="teaser-2-text">
+                  <div class="teaser-title">freizeit</div>
+                  <div class="teaser-desc">Erleben Sie Freizeit unbeschwert</div>
+                </div>
+                <img
+                  class="w-100"
+                  src="./themes/base/images/kategorie-teaser-2.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </section>
+        </body>
+        </html>
+     ]]>
+    </htmlData>
+
+</Template>
